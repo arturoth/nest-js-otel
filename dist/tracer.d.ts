@@ -1,3 +1,9 @@
-import * as opentelemetry from '@opentelemetry/sdk-node';
-declare const sdk: opentelemetry.NodeSDK;
-export default sdk;
+declare class Tracer {
+    private sdk;
+    private exporter;
+    private metricExporter;
+    private provider;
+    init(): void;
+}
+declare const _default: Tracer;
+export default _default;

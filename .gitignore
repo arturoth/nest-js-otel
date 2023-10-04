@@ -1,6 +1,5 @@
 # custom
 newrelic_agent.log
-src/tracer.ts
 src/tracing.stable.ts
 
 # dependencies

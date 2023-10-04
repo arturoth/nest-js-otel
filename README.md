@@ -35,6 +35,10 @@ $ npm install
 ## Running the app
 
 ```bash
+# vars
+$ export APP_PORT=3000
+$ export OTLP_COLLECTOR="{URL}"
+
 # development
 $ npm run start
 
@@ -56,6 +60,12 @@ $ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
+```
+
+## Load test 
+
+```bash
+$ k6 run loadtest.js
 ```
 
 ## Support
